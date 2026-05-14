@@ -1,0 +1,112 @@
+body{
+    background-image: url(https://i.pinimg.com/736x/09/9c/c5/099cc5d324f8338eb48f8e4148b1e0c2.jpg);
+    display: flex;
+    flex-flow: column;
+}
+
+.Aba{
+    background-color: #fbcf96;
+    margin: 0 0 0 0;
+    border-radius: 30px;
+    padding: 1px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+
+.p1{
+    background-color: aliceblue;
+      text-decoration: none;
+      width: 30%;
+      border:3px solid #d567a9;
+      border-style: dashed;
+      border-radius: 30px;
+      display: flex;
+      justify-content: center;
+      color: #0c1414;
+      font-family: Irish Grover;
+    
+      
+}
+
+.p1:hover{
+    border:3px solid #b24586;
+    background-color: #e46c86;
+    color: #0c1414;
+}
+
+.Roupas{
+    width: 90vw;
+    height: 90vw;
+}
+img{
+    max-width: 50%;
+   max-height: 80%;
+    border-radius: 10px;
+    background-color: #d567a9;
+    padding: 4px;
+}
+
+.Card{
+    background-color: #e46c86;
+         width: 30vw;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid rgb(97, 24, 57);
+    border-style: dashed;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-height:90% ;
+    overflow: auto;
+    
+   
+}
+
+.Roupas{
+    background-color: #fbcf96;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+      width: 95vw;
+    height: 30vh;  
+    align-items: center;
+    margin: 0 0 0 0;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    
+
+}
+
+.Indisponivel{
+    background-color: #571725;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 6px;
+
+}
+
+.Disponivel{
+    background-color: #1d5717;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 6px;
+
+}
+
+h3{
+    background-color: #b24586;
+    color: aliceblue;
+    padding: 8px;
+}
+
+.Coisas{
+   background-color: #e2accc;
+  border-radius: 10px;
+    padding: 8px;
+}

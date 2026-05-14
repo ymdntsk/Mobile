@@ -1,10 +1,43 @@
 body{
     background-image: url(https://i.pinimg.com/1200x/31/43/0d/31430d94593be5dab333016718345292.jpg);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
 }
 
 h1{
     font-family: Irish Grover;
     font-size:300%;
-    max-width: 100% ;
+    max-width: 100vw ;
+    background-color: rgb(218, 149, 149);
+    padding: 12px;
+    border-radius: 15px;
+    border-style: dotted;
+    border-color: rgb(117, 46, 46);
+    -webkit-text-stroke: 1px #a4324b; color: white;
     
+}
+
+
+p{
+    font-family: Irish Grover;
+    font-size: 25px;
+    max-width: 80vw;
+}
+
+a{
+      background-color: rgb(227, 178, 178);
+      border-color: rgb(117, 46, 46);
+       text-decoration: none;
+       color: brown;
+       padding: 19px;
+       max-width: 50vw;
+       max-height: 10vh;
+       border-radius: 50px;
+       border-style: double;
+       border-color: rgb(109, 24, 24);
+       font-family: Irish Grover;
 }
