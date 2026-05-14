@@ -13,31 +13,23 @@ background-image: url(https://i.pinimg.com/736x/09/9c/c5/099cc5d324f8338eb48f8e4
 
 .Aba{
     background-color: #fbcf96;
-    margin: 0 0 0 0;
-    border-radius: 30px;
+     border-radius: 30px;
     padding: 1px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    
     margin-bottom: 20px;
 }
 
 
 .p1{
-    background-color: aliceblue;
-      text-decoration: none;
-      width: 30%;
-      border:3px solid #d567a9;
-      border-style: dashed;
-      border-radius: 30px;
-      display: flex;
-      justify-content: center;
-      color: #0c1414;
-      font-family: Irish Grover;
+
     
       
 }
 
-.p1:hover{
+button:hover{
     border:3px solid #b24586;
     background-color: #e46c86;
     color: #0c1414;
@@ -118,3 +110,42 @@ h3{
     padding: 8px;
      margin-bottom: 5px;
 }
+
+
+.Card a{
+    text-decoration: none;
+
+}
+
+button {
+    background-color: #571725;
+        background-color: aliceblue;
+      text-decoration: none;
+      width:100%;
+      border:3px solid #d567a9;
+      border-style: dashed;
+      border-radius: 30px;
+      display: flex;
+      justify-content: center;
+      color: #0c1414;
+      font-family: Irish Grover;
+      
+}
+
+.Aba button{
+    background-color: #fbcf96;
+    width: 200%;
+     border-radius: 0%;
+     border: 1px solid darkgoldenrod;
+}
+
+
+.Aba button:hover{
+        background-color: #b78e58;
+    width: 210%;
+    border-radius: 0%;
+}
+
+
+
+
