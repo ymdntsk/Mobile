@@ -3,14 +3,12 @@ body{
     flex-flow: column;
     justify-content: center;
     align-items: center;
-}
 
-.Hey{
-    background-image: url(https://i.pinimg.com/736x/09/9c/c5/099cc5d324f8338eb48f8e4148b1e0c2.jpg);
-    display: flex;
-    flex-flow: column;
-     width: 402px;
+}
+.Sup{
+    width: 402px;
     height: 894px;
+background-image: url(https://i.pinimg.com/736x/09/9c/c5/099cc5d324f8338eb48f8e4148b1e0c2.jpg);
 }
 
 .Aba{
@@ -81,7 +79,7 @@ img{
     flex-direction: row;
     justify-content: space-around;
       width: 95%;
-    height: fit-content;  
+    height: 30%;  
     align-items: center;
     margin: 0 0 0 0;
     border-radius: 30px;
@@ -117,10 +115,6 @@ h3{
 .Coisas{
    background-color: #e2accc;
   border-radius: 10px;
-    padding: 10px;
+    padding: 8px;
      margin-bottom: 5px;
-     width: 80%;
-     display: flex;
-     align-items: center;
-     flex-flow: column;
 }
